@@ -5,26 +5,26 @@ With the help of 'pandas' and 'datetime' library I were able to manipulate the d
 
 The LogDate folder contains the entries in 'mm/dd/yyyy hh:mm:ss' format.
 
-Step 1
+Step 1:
 from the Biometric logs, select the required columns 
 
-Step 2
+Step 2:
 filter out the rows for the dates attendance to be uploaded
 
-Split 3
+Split 3:
 split the date and time
 
-Step 4
+Step 4:
 change the date format to 'dd/mm/yyyy'
 
-Step 5
+Step 5:
 change the time format to 'hh:mm'
 
-Step 6
+Step 6:
 Select the first and last entries for one employee as there can be more than one entries due to lunch break etc.
 
-Step 7
+Step 7:
 create the final DataFrame
 
-Step 8
+Step 8:
 Write CSV
